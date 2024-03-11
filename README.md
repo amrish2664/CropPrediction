@@ -9,9 +9,9 @@ This is an crop prediction webpage made using Django.This will allow users to en
 * DJANGO  
 ### Steps Involved 
 
-** Data Collection(from kaggle)
-* Data Preprocessing
-  *Tokenization
+* Data Collection(from kaggle)
+- Data Preprocessing
+  +Tokenization
   *Removing punctuations like. ,! $ * () % @
   *Removing Stop words
   *Stemming
