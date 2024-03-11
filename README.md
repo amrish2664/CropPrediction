@@ -25,7 +25,7 @@ Project Link: [https://github.com/amrish2664/CropPriction-/tree/main)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Building Website Using Django](https://youtu.be/qwFBXuEeg1U?si=5YSw8DVKIPvPanUv)
+* [Learning Django [2021] by building a Project - Deploy ML Models using Django - Learn by Doing](https://youtu.be/rNhVBv0i4os?si=F_bFkLEqhXVtldS_)
 
 
 
