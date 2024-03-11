@@ -10,11 +10,11 @@ This is an crop prediction webpage made using Django.This will allow users to en
 ### Steps Involved 
 
 * Data Collection(from kaggle)
-- Data Preprocessing
-+Tokenization
-  *Removing punctuations like. ,! $ * () % @
-  *Removing Stop words
-  *Stemming
+* Data Preprocessing
+1.Tokenization
+2.Removing punctuations like. ,! $ * () % @
+3.Removing Stop words
+4.Stemming
 * Now Train the Model on Different Algorithms Like Random Forest,Logistics Regression,DecisionTreeClassifier.After training conver the trained model into Pickle file based on one of the algorithm.In this case I have choosen Logistics Regression . 
 * Now You can include the pickle file in your djnago project.
 ## Contact
