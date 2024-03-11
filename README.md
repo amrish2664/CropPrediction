@@ -11,7 +11,7 @@ This is an crop prediction webpage made using Django.This will allow users to en
 
 * Data Collection(from kaggle)
 - Data Preprocessing
-  +Tokenization
++Tokenization
   *Removing punctuations like. ,! $ * () % @
   *Removing Stop words
   *Stemming
