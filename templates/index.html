@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Prediction</title>
+    <link rel="stylesheet" href="{% static 'css/index.css'%}">
+</head>
+<body>
+    <h1 >Crop Prediction</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label for="n">N:</label>
+        <input type="number" name="n" id="n" required><br><br>
+
+        <label for="p">P:</label>
+        <input type="number" name="p" id="p" required><br><br>
+
+        <label for="k">K:</label>
+        <input type="number" name="k" id="k" required><br><br>
+
+        <label for="temperature">Temperature:</label>
+        <input type="number" name="temperature" id="temperature" required><br><br>
+
+        <label for="humidity">Humidity:</label>
+        <input type="number" name="humidity" id="humidity" required><br><br>
+
+        <label for="ph">pH:</label>
+        <input type="number" name="ph" id="ph" step="0.01" required><br><br>
+        <label for="r">Rainfall</label>
+        <input type="number" name="r" id="r" step="0.01" required><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+    {% if prediction %}
+        <h2>Predicted Crop: {{ prediction }}</h2>
+    {% endif %}
+</body>
+</html>
